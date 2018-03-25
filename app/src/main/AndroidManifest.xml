@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.unquo.trafficlights">
+    
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_flagger_red"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_flagger_red"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".GPSActivity"
+            android:label="Flagger">
+
+        </activity>
+
+        <activity
+            android:name=".ChatActivity"
+            android:label="Chat with Android">
+
+        </activity>
+        <service
+            android:name=".FloatingAlertService"
+            android:enabled="true"
+            android:exported="false"/>
+
+    </application>
+
+</manifest>

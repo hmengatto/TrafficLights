@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "372001619000",
+    "firebase_url": "https://mobility-de3e3.firebaseio.com",
+    "project_id": "mobility-de3e3",
+    "storage_bucket": "mobility-de3e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372001619000:android:ed88fba44ba2ccea",
+        "android_client_info": {
+          "package_name": "br.com.unquo.trafficlights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372001619000-s7qs3c73vojha2qsmmvv89ai4mp9r5f2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_EUEBLrmq_vQm1JR91NW8kf1Kcy251as"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
